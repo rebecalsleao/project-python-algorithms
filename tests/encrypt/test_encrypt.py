@@ -6,9 +6,11 @@ def test_encrypt_message():
 
 
 def soma(a, b):
-    assert isinstance(a, int) and isinstance(b, int), "Os argumentos devem ser números inteiros"
+    assert isinstance(a, int) and isinstance(
+        b, int
+    ), "Os argumentos devem ser números inteiros"
     return a + b
+
 
 resultado = soma(2, 3)
 assert resultado == 5, "A soma está incorreta"
-
