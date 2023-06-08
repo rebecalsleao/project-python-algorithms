@@ -16,4 +16,5 @@ def study_schedule(permanence_period, target_time):
 
         if (arrived_before_or_on_time and left_after_or_on_time):
             score +=1
+
     return score
